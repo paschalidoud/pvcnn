@@ -1,9 +1,9 @@
 import torch.nn as nn
 
-import modules.functional as F
-from modules.voxelization import Voxelization
-from modules.shared_mlp import SharedMLP
-from modules.se import SE3d
+from . import functional as F
+from .voxelization import Voxelization
+from .shared_mlp import SharedMLP
+from .se import SE3d
 
 __all__ = ['PVConv']
 

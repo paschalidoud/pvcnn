@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch.autograd import Function
 
-from modules.functional.backend import _backend
+from .backend import _backend
 
 __all__ = ['gather', 'furthest_point_sample', 'logits_mask']
 
